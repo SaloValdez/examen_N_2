@@ -13,7 +13,7 @@
 			$this->Ln(30);
 
 		}
-
+		
 		function Footer()
 		{
 			$this->SetY(-15);

@@ -24,8 +24,8 @@ $sueldoNeto =$sueldo + $bon;
 include("a_conexion2.php");
 //insert----ALUMNO
   $insertar1=("INSERT INTO trabajador (nombre,apellido,dni,horasTrabajo,tarifa,sueldo,bono,sueldoNeto) values ('$nombre','$apellido','$dni','$ht','$tarifa','$sueldo','$bon','$sueldoNeto')");
-  $ejecutar = $mysqli->query($insertar1);
-  if ($ejecutar->errno)die($ejecutar->error);
+  $ejecutar1 = $mysqli->query($insertar1);
+  if ($ejecutar1->errno)die($ejecutar1->error);
 
    echo '<script> window.location="index.php"; </script>';
 
